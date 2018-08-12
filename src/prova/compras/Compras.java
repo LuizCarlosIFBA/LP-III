@@ -46,16 +46,19 @@ public class Compras {
 
 	public boolean fornecedorProduto() {
 		//Lista
+		//Implemente sua lógica 
 		return false;
 	}
 
 	public double quantidadeDeProduto(String codigoProduto) {
 		//Lista
+		//Implemente sua lógica 
 		return 0;
 	}
      
 	public String totalPorProduto(){
 		//Lista
+		//Implemente sua lógica 
 		return " "; 
 	}
 }
