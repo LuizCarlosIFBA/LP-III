@@ -1,9 +1,8 @@
-package prova.produto;
+package fornecedor;
 
-public class Produto {
+public class Fornecedor {
 	private String codigo;
 	private String descricao;
-	private double preco;
 
 	// Código
 	public void setCodigo(String codigo) {
@@ -19,18 +18,9 @@ public class Produto {
 		descricao = descricao;
 	}
 
-	public String getDescricao() {
+	String getDescricao() {
 		return descricao;
 	}
-
-	// Preco
-	public void setPreco(double preco)
-	   {
-	        preco = preco;
-	   }
-
-	double getPreco() {
-		return preco;
-	}
-
+	
+	
 }

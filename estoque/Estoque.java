@@ -1,18 +1,18 @@
-package prova.estoque;
+package estoque;
 
-import prova.fornecedor.Fornecedor;
-import prova.produto.Produto;
+import fornecedor.Fornecedor;
+import produto.Produto;
 
 public class Estoque {
 	private Produto produto;
 	private Fornecedor fornecedor;
 	private int quantidade;
 
-	void setQuantidade(int quantidade) {
+	public void setQuantidade(int quantidade) {
 		quantidade = quantidade;
 	}
 
-	int getQuantidade()
+	public int getQuantidade()
 	   {
 	        return quantidade;
 	   }

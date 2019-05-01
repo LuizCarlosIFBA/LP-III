@@ -1,8 +1,6 @@
-package prova.principal;
-
-import prova.compras.Compras;
-import prova.fornecedor.Fornecedor;
-import prova.produto.Produto;
+import compras.Compras;
+import fornecedor.Fornecedor;
+import produto.Produto;
 
 public class Principal {
 
@@ -11,27 +9,9 @@ public class Principal {
 		Compras c = new Compras();
 				
 		//Adicionando produto
-		Produto[] p = new Produto[3];
-		p[0] = new Produto();
-		p[0].setCodigo("P-1");
-		p[0].setDescricao("CD");
-		p[0].setPreco(1.20);
-		
-		c.adicionaProduto(p[0]);
-		
-		p[1] = new Produto();
-		p[1].setCodigo("P- 30");
-		p[1].setDescricao("Papel");
-		p[1].setPreco(15);
-		
-		c.adicionaProduto(p[1]);
-		
-		p[2] = new Produto();
-		p[2].setCodigo("P-3");
-		p[2].setDescricao("Cola");
-		p[2].setPreco(3.25);
-		
-		c.adicionaProduto(p[2]);
+		c.adicionaProduto("P-1","CD",1.20*30);
+		c.adicionaProduto("P-30","Papel",15*55);
+		c.adicionaProduto("P-3","Cola",3.25*50);
 		
 		//adicionando fornecedor
 		Fornecedor[] f = new Fornecedor[2];

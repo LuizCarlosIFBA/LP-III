@@ -1,8 +1,11 @@
-package prova.fornecedor;
+package produto;
 
-public class Fornecedor {
+import estoque.Estoque;
+
+public class Produto{
 	private String codigo;
 	private String descricao;
+	private double preco;
 
 	// Código
 	public void setCodigo(String codigo) {
@@ -18,7 +21,17 @@ public class Fornecedor {
 		descricao = descricao;
 	}
 
-	String getDescricao() {
+	public String getDescricao() {
 		return descricao;
+	}
+
+	// Preco
+	public void setPreco(double preco)
+	   {
+	        preco = preco;
+	   }
+
+	public double getPreco() {
+		return preco;
 	}
 }
